@@ -1,0 +1,18 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "node-fetch": "2.6.0",
+    "testcafe": "1.9.4"
+  },
+  "scripts": {
+    "e2e": "testcafe chrome ./tests",
+    "debug": "testcafe $NODE_DEBUG_OPTION chrome"
+  },
+  "author": "IG",
+  "license": "ISC"
+}
